@@ -18,7 +18,6 @@ var Level2 = {
         //Parralax background
         game.add.sprite(0, 20, 'back').scale.set(2, 2.5);
         game.add.sprite(1650, 20, 'back').scale.set(2, 2.5);
-
         //Generate Player
         generatePlayer();
 

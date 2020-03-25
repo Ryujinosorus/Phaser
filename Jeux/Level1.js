@@ -74,6 +74,7 @@ var Level1 = {
         }
     },
     death: function () {
+        game.add.audio('die').play();
         Player['lookR'] = true;
         game.state.start('Level1');
     },

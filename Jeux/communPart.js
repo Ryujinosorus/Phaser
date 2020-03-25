@@ -1,3 +1,6 @@
+window.onload = function () {
+    var context = new AudioContext();
+}
 const map1 = [
     [],
     [],
@@ -192,6 +195,14 @@ function communLoad() {
 
     //Portail
     game.load.spritesheet('portal', './assets/portail.png', 128, 128);
+
+    game.load.audio('back', ['assets/sounds/back.mp3', 'assets/sounds/back.ogg']);
+    game.load.audio('mood', ['assets/sounds/mood.mp3', 'assets/sounds/mood.ogg']);
+    game.load.audio('pick', ['assets/sounds/pick.mp3', 'assets/sounds/pick.ogg']);
+    game.load.audio('jump', ['assets/sounds/jump.mp3', 'assets/sounds/jump.ogg']);
+    game.load.audio('hit', ['assets/sounds/hit.mp3', 'assets/sounds/hit.ogg']);
+    game.load.audio('landing', ['assets/sounds/landing.mp3', 'assets/sounds/langing.ogg']);
+    game.load.audio('die', ['assets/sounds/die.mp3', 'assets/sounds/die.ogg']);
 }
 
 function initializeGroups() {
@@ -227,6 +238,13 @@ function generatePlayer() {
     Player['anim']['jump'] = Player["sprite"].animations.add('jump', [5, 6, 7, 8], 5, false);
     Player['anim']['fall'] = Player["sprite"].animations.add('fall', [14, 15, 16], 5, true);
 
+    //AUDIO
+    let music = game.add.audio('back');
+    music.play();
+    music.volume = 0.1;
+    let mood = game.add.audio('mood');
+    mood.play();
+    mood.volume = 0.15;
 }
 function generateEnnemy(ennemyMap) {
     for (let i = 0; i < ennemyMap.length; i++) {
@@ -298,11 +316,13 @@ function makeAth() {
 
 function moovePlayer() {
     //Moovement of the player
-    if (cursors.up.isDown && Player['sprite'].body.velocity.y == 0)
-
+    if (cursors.up.isDown && Player['sprite'].body.velocity.y == 0) {
+        let music = game.add.audio('jump');
+        music.play();
         //If he is grounded
         while (Player['sprite'].body.velocity.y > -Player['speed']['jump'])
             Player['sprite'].body.velocity.y -= 10
+    }
 
     else if (cursors.right.isDown)
         Player['sprite'].body.velocity.x = Player['speed']['run'];
@@ -333,6 +353,8 @@ function animGestion() {
 
 function Play(curentState) {
     //Change state and play anim
+    if (Player['State'] == State.fall && (curentState == State.run || curentState == State.id))
+        game.add.audio('landing').play();
     Player['State'] = curentState
     let animToPlay = Player['anim'][curentState];
     if (Player['anim']['curent'] == animToPlay)
@@ -355,6 +377,9 @@ function gofull() {
 
 function collisionOnCoin(player, member) {
     //Add a coin and destroy the one hitted
+    let s = game.add.audio('pick');
+    s.volume = 5;
+    s.play();
     Player['nbCoin'].setText(parseInt(Player['nbCoin'].text) + 1)
     member.kill();
 }
@@ -364,6 +389,8 @@ function collisionOnEnnemy(player, member) {
     if (Date.now() > Player['hitGestion']['lastHitTime'] + Player['hitGestion']['invinsibleTime']) {
 
         //Hit
+        game.add.audio('hit').play();       
+
         Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.2, 0.14);
         if (Player['demence']['actual'].scale.x > 0.753)
             Player['demence']['actual'].scale.x = 0.755;
