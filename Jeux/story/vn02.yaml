@@ -1,0 +1,34 @@
+start:
+  - effect SHOWTITLE:
+    title: Jour -3
+    subtitle: 08h55
+  - show bedroom: WITH FADE
+  - show mark: choc2 AT LEFT WITH FADE
+  - show lilith: normal2 AT RIGHT WITH FADE
+  - mark says: Merde… c’est carrément mauvais, j’suis foutu
+  - lilith says: Mmmh, qu’est-ce qui est mauvais ?
+  - choice:
+      - Euh… r-rien, je parlais tout seul:
+          - mark says: /Bon, j’ai trompé ma meuf, mais.. c’est pas de ma faute je suis sûr qu’elle m’a forcé.
+          - mark says: Bordel j’ai beaucoup trop bu hier../
+      - Coucher avec une inconnue ?:
+          - lilith says normal2debout: Bon écoute, je veux pas que tu te fasses une fausse idée de moi.
+          - lilith says: Ce qu’il s’est passé cette nuit c’est pas quelque chose d’habituelle pour moi, si je suis ici c’est car je t’aime.
+  - lilith says normal2debout: /Check l’heure/ Oups, il est déjà 9h. Je serais bien resté un peu plus longtemps mais je dois y aller, ciao !
+  - hide lilith:
+  - mark says normal2: At-attends ! Je suis déjà en couple avec quelqu’un ! /Elle n’a pas entendu/
+  - mark says seum2: C’est un malentendu, j’te jure que c’est un malentendu..
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -3
+    subtitle: 21h30
+  - show bar: WITH FADE
+  - show mark: normal AT LEFT WITH FADE
+  - show thomas: normal AT RIGHT WITH FADE
+  - thomas  smile: Ah ouais, là par contre je peux plus rien pour toi mec ahahah
+  - mark says: Rigole pas, c’est chaud ce qui m’arrive, c’est pas comme si je pouvais juste m’excuser pour que tout s’arrange.
+  - mark says: Je commence à me demander si je peux vraiment rendre ma copine heureuse..
+  - thomas says normal: Écoute, tu vas rentrer chez toi, t’endormir et demain tu feras comme si de rien n’était.
+  - thomas says: Je vais garder ce secret, mais évite ça la prochaine fois que tu vois une jolie fille.
+  - hide ALL:
+  - call loadLevel2:

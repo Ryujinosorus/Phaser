@@ -1,10 +1,10 @@
 RenJS.customContent = {
 	//put here your own functions
-	test: function () {
-		game.state.start('Level1');
+	loadLevel1: function () {
+		window.location.href = "./Level1.html"
 	},
 	loadLevel2: function () {
-		game.state.start('Level2');
+		window.location.href = "./Level2.html"
 	},
 	helloworld: function (params) {
 		console.log("helloworld function");

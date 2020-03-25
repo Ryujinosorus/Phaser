@@ -1,20 +1,20 @@
 const map1 = [
-	[],
-	[],
-	[],
-	[],
-	[],
-	[],
-	[],
-	[],
-	[],
     [],
     [],
     [],
     [],
-    [1211,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1121,1112],
-	[2211,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3211,3121,3112,2112],
-	[2211,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,4444,2112],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [1211, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1112],
+    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112],
+    [2211, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 2112],
     [2211, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1112],
     [2211, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 3211, 3121, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3121, 3121, 3121, 4112, 2112],
     [2211, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4444, 4112, 2112],
@@ -50,10 +50,10 @@ const map2 = [
     [7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777],
     [7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 1211, 1121, 1121, 1121, 1121],
     [1211, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1121, 1112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3211, 3211, 3211, 2112],
-    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 1121,1121, 1121],
+    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 1121, 1121, 1121],
     [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 1211, 1121, 1121, 1121, 1121, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 3211, 3121, 3112],
-    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777,1121,1121,1121],
-    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777,3211, 3121, 3112],
+    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 1121, 1121, 1121],
+    [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 3211, 3121, 3112],
     [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 1211, 1121, 1121],
     [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 7777, 3211, 3121, 3121],
     [2211, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3211, 3121, 3112, 2112, 7777, 7777, 7777, 7777, 7777, 7777, 2211, 3112, 3112, 3112, 2112, 7777, 7777, 7777, 2211, 4444, 4444, 4444, 2112],
@@ -70,10 +70,10 @@ const map2 = [
 ];
 const map3 = [[]];
 const State = {
-    run : 'run',
-    fall : 'fall',
-    idle : 'idle',
-    jump : 'jump'
+    run: 'run',
+    fall: 'fall',
+    idle: 'idle',
+    jump: 'jump'
 }
 
 var Player = {
@@ -81,12 +81,12 @@ var Player = {
     'State': null,
     'sprite': null,
     'nbCoin': null,
-    anim :{
+    anim: {
         'idle ': null,
         'run': null,
         'jump': null,
         'fall': null,
-        'curent' : null
+        'curent': null
     },
     'flip': function () {
         Player['lookR'] = (!Player['lookR'])
@@ -94,7 +94,7 @@ var Player = {
     },
     'speed': {
         'run': 300,
-        'jump': 450 
+        'jump': 450
     },
     'hitGestion': {
         'lastHitTime': 0,
@@ -103,15 +103,15 @@ var Player = {
     'demence': {
         'actual': null,
         'background': null,
-        'lastUpdate' : 0
+        'lastUpdate': 0
     }
 };
 var cursors;
 
 var scale = [37, 37];
 
-var coinMap1 = [[2100, 800], [1800,800], [1150, 520]];
-var coinMap2 = [[2100, 800], [1800,800], [1150, 520]];
+var coinMap1 = [[2100, 800], [1800, 800], [1150, 520]];
+var coinMap2 = [[2100, 800], [1800, 800], [1150, 520]];
 var coinMap3 = [[2100, 800], [1800, 800], [1150, 520]];
 
 var spikeMap1 = [[2000, 825], [1950, 825], [2050, 825], [2150, 825]];
@@ -128,260 +128,54 @@ var mapCoinGroup;
 var mapSpikeGroup;
 var portal = {
     'sprite': null,
-    'position': [[2500, 805],[],[]],
-    'text' : null
-};
-
-var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'Lucid Dreams');
-
-var vn01 = {
-    init: function () {
-        if (globalConfig.i18n) {
-            return;
-        }
-        if (!(globalConfig.scaleMode == "EXACT_FIT")) {
-            game.scale.pageAlignHorizontally = true;
-            game.scale.pageAlignVertically = true;
-        }
-        game.scale.scaleMode = Phaser.ScaleManager[globalConfig.scaleMode];
-        game.scale.refresh();
-    },
-
-    preload: function () {
-        game.load.image('splash', preparePath(globalConfig.splash.loadingScreen));
-        if (globalConfig.splash.loadingBar) {
-            game.load.image('loading', preparePath(globalConfig.splash.loadingBar.fullBar));
-        }
-        game.load.script('preload', 'RenJS/Preload.js');
-    },
-
-    create: function () {
-        game.state.add('preload', preload);
-        game.state.start('preload');
-    }
-}
-var Level1 = {
-    preload: function () {
-        communLoad();
-    },
-
-    create: function () {
-
-        //Extend the actual canvas
-        game.world.setBounds(0, 0, 5000, 1400);
-        game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
-        game.input.onDown.add(gofull, this);
-
-        //Get input
-        cursors = game.input.keyboard.createCursorKeys()
-
-        //Parralax background
-        game.add.sprite(0, 20, 'back').scale.set(2, 2.5);
-        game.add.sprite(1650, 20, 'back').scale.set(2, 2.5);
-
-        //Generate Player
-        generatePlayer();
-
-        //Initialize groups
-        initializeGroups();
-
-        //Generate map
-        generateMap(map1);
-
-        //Generate the portail
-        generatePortal(portal['position'][0]);
-
-        //Generate coins
-        generateCoin(coinMap1)
-
-        //Genrerate spike
-        generateSpike(spikeMap1);
-        //ATH
-        makeAth();
-
-        //Ennemy
-        generateEnnemy(ennemyMap1);      
-    },
-    update: function() {
-
-        //Check all the collision
-        if (game.physics.arcade.collide(Player["sprite"], mapCollisionGroup)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapCoinGroup, collisionOnCoin, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapEnnemyGroup, collisionOnEnnemy, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapSpikeGroup, collisionOnEnnemy, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], portal['sprite'], Level1.checkForWin, returnTrue, this)) {
-        }
-
-        moovePlayer();
-        updateDemence();
-    },
-    death: function() {
-        Player['lookR'] = true;
-        game.state.start('Level1');
-    },
-    win: function() {
-    game.state.start('VN02');
-    },
-    checkForWin: function () {
-        if ((parseInt(Player['nbCoin'].text)) == 3)
-            Level1.win();
-        else if (portal['text'] == null || portal['text'].alpha == 0) {
-            let pos = Player['sprite'].body.position;
-            portal['text'] = game.add.text(pos.x, pos.y, 'aaaaaaaaaaaaaaaaaa', { font: "26px Arial", fill: "#DC143C", align: "center" });
-            game.add.tween(portal['text']).to({ alpha: 0 }, 2000, Phaser.Easing.Linear.None, true); 
-        }
-    }
+    'position': [[2500, 805], [10,10], []],
+    'text': null
+}; 
 
 
-};
-var vn02 = {
-    init: function () {
-        if (globalConfig.i18n) {
-            return;
-        }
-        globalConfig['storyText'] = ["./story/vn02.yaml"];
-        if (!(globalConfig.scaleMode == "EXACT_FIT")) {
-            game.scale.pageAlignHorizontally = true;
-            game.scale.pageAlignVertically = true;
-        }
-        game.scale.scaleMode = Phaser.ScaleManager[globalConfig.scaleMode];
-        game.scale.refresh();
-    },
 
-    preload: function () {
-        game.load.image('splash', preparePath(globalConfig.splash.loadingScreen));
-        if (globalConfig.splash.loadingBar) {
-            game.load.image('loading', preparePath(globalConfig.splash.loadingBar.fullBar));
-        }
-        game.load.script('preload', 'RenJS/Preload.js');
-    },
 
-    create: function () {
-        game.state.add('preload', preload);
-        game.state.start('preload');
-    }
-}
 
-var Level2 = {
-    preload: function () {
-        communLoad();
-    },
 
-    create: function () {
 
-        //Extend the actual canvas
-        game.world.setBounds(0, 0, 5000, 1400);
-        game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
-        game.input.onDown.add(gofull, this);
 
-        //Get input
-        cursors = game.input.keyboard.createCursorKeys()
 
-        //Parralax background
-        game.add.sprite(0, 20, 'back').scale.set(2, 2.5);
-        game.add.sprite(1650, 20, 'back').scale.set(2, 2.5);
 
-        //Generate Player
-        generatePlayer();
 
-        //Initialize groups
-        initializeGroups();
 
-        //Generate map
-        generateMap(map2);
 
-        //Generate the portail
-        generatePortal(portal['position'][1]);
 
-        //Generate coins
-        generateCoin(coinMap2)
-
-        //Genrerate spike
-        generateSpike(spikeMap2);
-        //ATH
-        makeAth();
-
-        //Ennemy
-        generateEnnemy(ennemyMap2);
-    },
-    update: function () {
-
-        //Check all the collision
-        if (game.physics.arcade.collide(Player["sprite"], mapCollisionGroup)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapCoinGroup, collisionOnCoin, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapEnnemyGroup, collisionOnEnnemy, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], mapSpikeGroup, collisionOnEnnemy, returnTrue, this)) {
-        }
-
-        if (game.physics.arcade.collide(Player["sprite"], portal['sprite'], Level2.checkForWin, returnTrue, this)) {
-        }
-
-        moovePlayer();
-        updateDemence();
-    },
-    death: function () {
-        Player['lookR'] = true;
-        game.state.start('Level2');
-    },
-    win: function () {
-        game.state.start('VN03');
-    },
-    checkForWin: function () {
-        if ((parseInt(Player['nbCoin'].text)) == 3)
-            Level2.win();
-        else if (portal['text'] == null || portal['text'].alpha == 0) {
-            let pos = Player['sprite'].body.position;
-            portal['text'] = game.add.text(pos.x, pos.y, 'aaaaaaaaaaaaaaaaaa', { font: "26px Arial", fill: "#DC143C", align: "center" });
-            game.add.tween(portal['text']).to({ alpha: 0 }, 2000, Phaser.Easing.Linear.None, true);
-        }
-    }
-};
 
 //COMMUN PART  !!! 
 function communLoad() {
-    game.stage.backgroundColor = '#86592d';
 
     //Terrain TOP 1
-    game.load.image('1211', 'assets/sprites/terrain_top_left.png');
-    game.load.image('1121', 'assets/sprites/terrain_top_center.png');
-    game.load.image('1112', 'assets/sprites/terrain_top_right.png');
+    game.load.image('1211', './assets/sprites/terrain_top_left.png');
+    game.load.image('1121', './assets/sprites/terrain_top_center.png');
+    game.load.image('1112', './assets/sprites/terrain_top_right.png');
 
     //Terrain SIDE 2 
 
-    game.load.image('2211', 'assets/sprites/terrain_center_left.png');
-    game.load.image('2121', 'assets/sprites/terrain_top_center.png');
-    game.load.image('2112', 'assets/sprites/terrain_center_right.png');
+    game.load.image('2211', './assets/sprites/terrain_center_left.png');
+    game.load.image('2121', './assets/sprites/terrain_top_center.png');
+    game.load.image('2112', './assets/sprites/terrain_center_right.png');
 
     //Terrain FILL TOP 3
-    game.load.image('3211', 'assets/sprites/terrain_fill_top_left.png');
-    game.load.image('3121', 'assets/sprites/terrain_fill_top_center.png');
-    game.load.image('3112', 'assets/sprites/terrain_fill_top_right.png');
+    game.load.image('3211', './assets/sprites/terrain_fill_top_left.png');
+    game.load.image('3121', './assets/sprites/terrain_fill_top_center.png');
+    game.load.image('3112', './assets/sprites/terrain_fill_top_right.png');
 
     //Terrain FILL SIDE 4
-    game.load.image('4211', 'assets/sprites/terrain_fill_center_left.png');
-    game.load.image('4444', 'assets/sprites/terrain_fill_center_center.png');
-    game.load.image('4112', 'assets/sprites/terrain_fill_top_right.png');
-    game.load.image('4121', 'assets/sprites/terrain_bottom_center.png');
+    game.load.image('4211', './assets/sprites/terrain_fill_center_left.png');
+    game.load.image('4444', './assets/sprites/terrain_fill_center_center.png');
+    game.load.image('4112', './assets/sprites/terrain_fill_top_right.png');
+    game.load.image('4121', './assets/sprites/terrain_bottom_center.png');
 
     //Player
-    game.load.spritesheet('playerRun', 'assets/Player/Furry_Jump_11_256_1024.png', 250, 250);
+    game.load.spritesheet('playerRun', './assets/Player/Furry_Jump_11_256_1024.png', 250, 250);
 
     //Ennemy
-    game.load.spritesheet('ennemy4', 'assets/enemy04_sheet', 35, 62);
+    game.load.spritesheet('ennemy4', './assets/enemy04_sheet', 35, 62);
 
     //Coin
     game.load.image('coin', './assets/coin.png');
@@ -461,22 +255,22 @@ function generatePortal(pos) {
 }
 function generateMap(map) {
     for (let y = 0; y < map.length; y++)
-        for (let x = 0; x < map[y].length; x++) 
-            if (map[y][x]!=7777)
+        for (let x = 0; x < map[y].length; x++)
+            if (map[y][x] != 7777)
                 mapCollisionGroup.create(x * scale[0], y * scale[1], (map[y][x]).toString());
     mapCollisionGroup.setAll('body.immovable', true);
     mapCollisionGroup.forEachAlive(scaleMe, this, 2.5);
 }
 
 function generateCoin(coinMap) {
-    for (let x = 0; x < coinMap.length; x++) 
+    for (let x = 0; x < coinMap.length; x++)
         mapCoinGroup.create(coinMap[x][0], coinMap[x][1], 'coin').anchor.set(0.5, 0.5);
-        
+
     mapCoinGroup.forEachAlive(scaleMe, this, 0.1);
 }
 
 function generateSpike(spikeMap) {
-    for (let x = 0; x < spikeMap.length; x++) 
+    for (let x = 0; x < spikeMap.length; x++)
         mapSpikeGroup.create(spikeMap[x][0], spikeMap[x][1], 'spike').anchor.set(0.5, 0.5);
     mapSpikeGroup.setAll('body.immovable', true);
     mapSpikeGroup.forEachAlive(scaleMe, this, 0.1);
@@ -548,16 +342,6 @@ function Play(curentState) {
         Player['anim']['curent'] = animToPlay;
     }
 }
-function updateDemence() {
-    //Up demence of player 
-    if (Date.now() > Player['demence']['lastUpdate'] + 100 && Player['demence']['actual'].scale.x < 0.753) {
-        Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.001, 0.14);
-        Player['demence']['lastUpdate'] = Date.now();
-    }
-    else if (Player['demence']['actual'].scale.x > 0.753) {
-        death();
-    }
-}
 
 function gofull() {
     if (game.scale.isFullScreen)
@@ -602,7 +386,7 @@ function returnTrue(player, member) {
 
 
 
-function scaleMe(member,size) {
+function scaleMe(member, size) {
     member.scale.set(size);
 }
 function render() {
@@ -628,14 +412,6 @@ class Ennemy {
     }
 
 }
-game.state.add('VN01', vn01);
-game.state.add('Level1', Level1);
-game.state.add('VN02', vn02);
-game.state.add('Level2', Level2);
-game.state.add('VN03', vn01);
-game.state.start('VN01');
-
-
 
 
 function preparePath(path) {

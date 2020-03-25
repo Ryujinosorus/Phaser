@@ -31,4 +31,4 @@ start:
   - show lilith: normal AT RIGHT WITH FADE
   - lilith says: Excuse-moi, mes amies sont parties, est-ce que je peux m’asseoir avec toi ?
   - hide ALL:
-  - call test:
+  - call loadLevel1:

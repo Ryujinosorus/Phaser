@@ -16,6 +16,6 @@ var globalConfig = {
   storySetup: "story/Setup.yaml",
   //as many story text files as you want
   storyText: [
-        "story/vn01.yaml"
+        "story/YourStory.yaml"
     ],
 }
