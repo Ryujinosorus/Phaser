@@ -1,0 +1,65 @@
+start:
+  - show store: WITH FADE
+  - show presentatrice: normal AT CENTER WITH FADE
+  - presentatrice says: Un jeune homme a été retrouvé mort ce matin. L’homme se prénomme Mark Pagano.
+  - presentatrice says: Son corps a été retrouvé sans vie, dans son lit, vers 9h du matin.
+  - presentatrice says normalB: Ses proches disent qu’il n’avait de problème avec personne...
+  - presentatrice says: Bien sûr, les enquêteurs essayent actuellement de comprendre les circonstances de sa mort.
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -4
+    subtitle: 21h30
+  - show bar: WITH FADE
+  - show mark: normal AT LEFT WITH FADE
+  - show thomas: normal AT RIGHT WITH FADE
+  - thomas says smile2: Je te connais depuis qu’on est gosse mais.. waouh, toi marié ?
+  - mark says: Dis pas ça, y’a encore rien de fait…
+  - thomas says normal: Bah quoi, t’as pas envie d’être marié à ta copine ?
+  - mark says seum: C’est pas ça mec, c’est juste qu’on est jeune.. on a tous les deux un tas de responsabilité.
+  - mark says: J’ai pas envie qu’on en rajoute, on a pas besoin de se précipiter.
+  - thomas says lunette: Ouais ouais, bon c’est pas tout ça mais je dois y aller, je commence tôt demain !
+  - mark says normal: Sérieux, déjà ? J’ai pas envie de rentrer.
+  - thomas says smile: Désolé, fait attention à toi et boit pas trop.
+  - hide thomas:
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -4
+    subtitle: 23h30
+  - show bar: WITH FADE
+  - show mark: normal AT LEFT WITH FADE
+  - mark says: Bon, hips.. faut peut-être que je rentre
+  - show lilith: normal AT RIGHT WITH FADE
+  - lilith says: Excuse-moi, mes amies sont parties, est-ce que je peux m’asseoir avec toi ?
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -3
+    subtitle: 08h55
+  - show bedroom: WITH FADE
+  - show mark: choc2 AT LEFT WITH FADE
+  - show lilith: normal2 AT RIGHT WITH FADE
+  - mark says: Merde… c’est carrément mauvais, j’suis foutu
+  - lilith says: Mmmh, qu’est-ce qui est mauvais ?
+  - choice:
+      - Euh… r-rien, je parlais tout seul:
+          - mark says: /Bon, j’ai trompé ma meuf, mais.. c’est pas de ma faute je suis sûr qu’elle m’a forcé.
+          - mark says: Bordel j’ai beaucoup trop bu hier../
+      - Coucher avec une inconnue ?:
+          - lilith says normal2debout: Bon écoute, je veux pas que tu te fasses une fausse idée de moi.
+          - lilith says: Ce qu’il s’est passé cette nuit c’est pas quelque chose d’habituelle pour moi, si je suis ici c’est car je t’aime.
+  - lilith says normal2debout: /Check l’heure/ Oups, il est déjà 9h. Je serais bien resté un peu plus longtemps mais je dois y aller, ciao !
+  - hide lilith:
+  - mark says normal2: At-attends ! Je suis déjà en couple avec quelqu’un ! /Elle n’a pas entendu/
+  - mark says seum2: C’est un malentendu, j’te jure que c’est un malentendu..
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -3
+    subtitle: 21h30
+  - show bar: WITH FADE
+  - show mark: normal AT LEFT WITH FADE
+  - show thomas: normal AT RIGHT WITH FADE
+  - thomas  smile: Ah ouais, là par contre je peux plus rien pour toi mec ahahah
+  - mark says: Rigole pas, c’est chaud ce qui m’arrive, c’est pas comme si je pouvais juste m’excuser pour que tout s’arrange.
+  - mark says: Je commence à me demander si je peux vraiment rendre ma copine heureuse..
+  - thomas says normal: Écoute, tu vas rentrer chez toi, t’endormir et demain tu feras comme si de rien n’était.
+  - thomas says: Je vais garder ce secret, mais évite ça la prochaine fois que tu vois une jolie fille.
+  - hide ALL:

@@ -1,0 +1,37 @@
+backgrounds:
+  store: assets/backgrounds/store.jpg
+  bar: assets/backgrounds/bar2.jpg
+  bedroom: assets/backgrounds/bedroom.jpg
+
+characters:
+  mark:
+    displayName: Mark
+    speechColour: "#d3dbed"
+    looks:
+      normal: assets/characters/boy1/KG110005.kg.png
+      seum: assets/characters/boy1/KG110006.kg.png
+      littlesmile: assets/characters/boy1/KG110010.kg.png
+      normal2: assets/characters/boy1/KG110254.kg.png
+      choc2: assets/characters/boy1/KG110243.kg.png
+      seum2: assets/characters/boy1/KG110246.kg.png
+  thomas:
+    displayName: Thomas
+    speechColour: "#c2b8b0"
+    looks:
+      normal: assets/characters/2/geo_defa1.png
+      lunette: assets/characters/2/geo_akuwaraia1.png
+      smile: assets/characters/2/geo_waraia1.png
+      smile2: assets/characters/2/geo_waraia2.png
+  lilith:
+    displayName: Lilith
+    speechColour: "#c29bb8"
+    looks:
+      normal: assets/characters/lilith/Outfit2a(d).png
+      normal2: assets/characters/lilith/Outfit1b(a).png
+      normal2debout: assets/characters/lilith/Outfit1a(b).png
+  presentatrice:
+    displayName: ???
+    speechColour: "#ca90cf"
+    looks:
+      normal: assets/characters/nurse1/KG090000.kg.png
+      normalB: assets/characters/nurse1/KG090001.kg.png
