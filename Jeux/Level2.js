@@ -8,7 +8,7 @@ var Level2 = {
     create: function () {
 
         //Extend the actual canvas
-        game.world.setBounds(0, 0, 5000, 1400);
+        game.world.setBounds(0, 0, 100000, 5000);
         game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
         game.input.onDown.add(gofull, this);
 
@@ -18,6 +18,7 @@ var Level2 = {
         //Parralax background
         game.add.sprite(0, 20, 'back').scale.set(2, 2.5);
         game.add.sprite(1650, 20, 'back').scale.set(2, 2.5);
+        game.add.sprite(3000, 20, 'back2').scale.set(2, 2.5);
         //Generate Player
         generatePlayer();
 
@@ -58,19 +59,23 @@ var Level2 = {
 
         if (game.physics.arcade.collide(Player["sprite"], portal['sprite'], Level2.checkForWin, returnTrue, this)) {
         }
-
+        if (Player['sprite'].body.position.y >2000)
+            Level2.death();
         moovePlayer();
         Level2.updateDemence();
+        e.forEach(element => element.start());
     },
     updateDemence: function () {
         //Up demence of player 
-        if (Date.now() > Player['demence']['lastUpdate'] + 100 && Player['demence']['actual'].scale.x < 0.753) {
-            Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.001, 0.14);
+        
+        if (Date.now() > Player['demence']['lastUpdate'] + 1000 ) {
+            Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.001, 0.06);
             Player['demence']['lastUpdate'] = Date.now();
         }
-        else if (Player['demence']['actual'].scale.x > 0.753) {
+        else if (Player['demence']['actual'].scale.x > 0.331) {
             Level2.death();
         }
+        
     },
     death: function () {
         Player['lookR'] = true;
@@ -84,7 +89,7 @@ var Level2 = {
             Level2.win();
         else if (portal['text'] == null || portal['text'].alpha == 0) {
             let pos = Player['sprite'].body.position;
-            portal['text'] = game.add.text(pos.x, pos.y, 'aaaaaaaaaaaaaaaaaa', { font: "26px Arial", fill: "#DC143C", align: "center" });
+            portal['text'] = game.add.text(pos.x, pos.y-50, 'Récuperer 3 piéces pour pouvoir sortir !', { font: "20px Arial", fill: "#DC143C", align: "center" });
             game.add.tween(portal['text']).to({ alpha: 0 }, 2000, Phaser.Easing.Linear.None, true);
         }
     }

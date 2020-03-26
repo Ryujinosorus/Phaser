@@ -2,6 +2,8 @@ backgrounds:
   store: assets/backgrounds/store.jpg
   bar: assets/backgrounds/bar2.jpg
   bedroom: assets/backgrounds/bedroom.jpg
+  bedroom2: assets/backgrounds/bedroom2.jpg
+  park: assets/backgrounds/park.jpg
 
 characters:
   mark:
@@ -11,8 +13,10 @@ characters:
       normal: assets/characters/boy1/KG110005.kg.png
       seum: assets/characters/boy1/KG110006.kg.png
       littlesmile: assets/characters/boy1/KG110010.kg.png
+      choc: assets/characters/boy1/KG110013.kg.png
       normal2: assets/characters/boy1/KG110254.kg.png
       choc2: assets/characters/boy1/KG110243.kg.png
+      darkchoc2: assets/characters/boy1/dark.png
       seum2: assets/characters/boy1/KG110246.kg.png
   thomas:
     displayName: Thomas
@@ -29,9 +33,22 @@ characters:
       normal: assets/characters/lilith/Outfit2a(d).png
       normal2: assets/characters/lilith/Outfit1b(a).png
       normal2debout: assets/characters/lilith/Outfit1a(b).png
+      angry: assets/characters/lilith/Outfit1a.png
   presentatrice:
     displayName: ???
     speechColour: "#ca90cf"
     looks:
       normal: assets/characters/nurse1/KG090000.kg.png
       normalB: assets/characters/nurse1/KG090001.kg.png
+  blanc:
+    displayName: .
+    speechColour: "#ffffff"
+    looks:
+      normal: assets/characters/transparent.png
+  rosa:
+    displayName: Rosa
+    speechColour: "#dce3cc"
+    looks:
+      normal: assets/characters/girl/ros_defa1.png
+      suspicious: assets/characters/girl/ros_ikaria3.png
+      happy: assets/characters/girl/ros_waraia2.png

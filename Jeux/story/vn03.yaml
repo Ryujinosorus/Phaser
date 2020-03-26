@@ -1,0 +1,57 @@
+start:
+  - effect SHOWTITLE:
+    title: Jour -1
+    subtitle: 10h45
+  - show bedroom2: WITH FADE
+  - show mark: darkchoc2 AT CENTER WITH FADE
+  - show bedroom: WITH FUSION
+  - show mark: WITH MOVE AT LEFT
+  - mark says choc2: AHHH ! Encore.. ce maudit cauchemar !
+  - show lilith: normal2debout AT RIGHT WITH FADE
+    flipped: true
+  - lilith says: Enfin reveillé mon loup ? Alors de quoi voulais-tu me parler ?
+  - mark says: Mais !!?
+  - mark says normal2: MAIS QUI ES TU À LA FIN ?
+  - lilith says angry: As-tu trop bu hier ? Tu n'as fais que m'appeler et tu ne t'en rappelles même pas.
+  - mark says seum2: C'est pas possible... arghh
+  - lilith says normal2debout: T'es sûr que ça va ? Tu agis bizarrement..
+  - mark says normal2: Moi... bizarre ?
+  - mark says choc2: Pourquoi je n'arrive pas à me rappeler le temps que je passe avec toi ...?
+  - mark says normal2: C'est comme si les éléments importants avaient disparu.
+  - lilith says normal2: Et pourtant, moi je m'en souviens bien /souris/.
+  - lilith says normal2debout: Bref, je vais prendre une douche avant de repartir.
+  - mark says: D'accord...
+  - hide lilith:
+  - show mark: normal2 WITH MOVE AT CENTER
+  - blanc says: /DING DONG/
+  - mark says choc2: OH NON, j'ai oublié que ma copine est censé venir aujourd'hui !!
+  - show mark: normal2 WITH MOVE AT LEFT
+  - show rosa: normal AT RIGHT WITH FADE
+  - rosa says: Salut chéri, j'ai apporté de quoi manger.
+  - mark says: Euh.. salut mon amour. Tu vas m'en vouloir mais je dois te dire quelque chose.
+  - mark says: J'ai bu avec mon patron hier soir et je l'ai laissé dormir ici, j'ai oublié de te prévenir.
+  - rosa says suspicious: Hein ?! Mais il est où là ?
+  - mark says seum2: Il a voulu prendre une douche avant de partir, attends moi au parc. Je te rejoins dès qu'il part.
+  - rosa says normal: Bon... je te fais confiance, fais vite.
+  - hide rosa: WITH FADE
+  - hide ALL:
+  - effect SHOWTITLE:
+    title: Jour -1
+    subtitle: 12h30
+  - show park: WITH FADE
+  - show mark: normal AT LEFT WITH FADE
+  - show rosa: happy AT RIGHT WITH FADE
+  - rosa says: C'est pas plus mal de manger ici, il fait beau aujourd'hui.
+  - mark says: /Elle est quand même sacrément belle cette fille/
+  - rosa says: Ça me rappelle l'époque du lycée, quand nous mangions à deux sur le banc pendant la pause.
+  - mark says: /Mon plus grand malheur c'est que je ne puisse pas me rappeler des moments avec elle/
+  - rosa says suspicious: Eh ! Tu m'écoutes ?
+  - mark says choc: Hein.. ah.. oui, ça semble si loin maintenant !
+  - rosa says normal: Bref, je dois t'annoncer quelque chose.
+  - mark says normal: Mmmh ?
+  - rosa says happy: Je suis enceinte, tu vas être papa !
+  - mark says choc: /Sérieusement ?! C'est la véritable raison pour laquelle elle est venu aujourd'hui/
+  - mark says littlesmile: Oh mon dieu, tu n'imagines pas le bonheur que je ressens, sérieusement.
+  - rosa says littlesmile: C'est une nouvelle page de notre histoire, n'est-ce pas ?
+  - hide ALL: WITH FADE
+

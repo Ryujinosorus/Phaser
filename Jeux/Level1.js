@@ -65,11 +65,11 @@ var Level1 = {
     },
     updateDemence: function () {
         //Up demence of player 
-        if (Date.now() > Player['demence']['lastUpdate'] + 100 && Player['demence']['actual'].scale.x < 0.753) {
-            Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.001, 0.14);
+        if (Date.now() > Player['demence']['lastUpdate'] + 1000) {
+            Player['demence']['actual'].scale.set(Player['demence']['actual'].scale.x + 0.001, 0.06);
             Player['demence']['lastUpdate'] = Date.now();
         }
-        else if (Player['demence']['actual'].scale.x > 0.753) {
+        else if (Player['demence']['actual'].scale.x > 0.331) {
             Level1.death();
         }
     },
